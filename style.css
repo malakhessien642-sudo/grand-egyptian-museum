@@ -899,3 +899,36 @@ img {
         gap: 10px;
     }
 }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(35px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.header {
+  transition: background 0.4s ease, padding 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.header.scrolled {
+  background: rgba(8, 9, 9, 0.96);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px);
+}
+
+.exhibition-card,
+.explore-card {
+  transition: transform 0.4s ease, border-color 0.4s ease;
+}
+
+.exhibition-card:hover,
+.explore-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--gold);
+}
