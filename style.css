@@ -1055,3 +1055,6 @@ img {
   background-position: center;
   background-repeat: no-repeat;
 }
+.exhibition-card .card-image-placeholder span {
+  display: none !important;
+}
