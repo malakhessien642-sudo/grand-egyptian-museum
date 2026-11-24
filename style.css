@@ -1032,3 +1032,26 @@ img {
   background: rgba(8, 9, 9, 0.7);
   padding: 8px 12px;
 }
+/* Explore Section Images */
+
+.explore-card:nth-child(1) .explore-placeholder {
+  background-image: url("grand-staircase.jpg");
+}
+
+.explore-card:nth-child(2) .explore-placeholder {
+  background-image: url("ancient-artifacts.jpg");
+}
+
+.explore-card:nth-child(3) .explore-placeholder {
+  background-image: url("royal-collections.jpg");
+}
+
+.explore-card:nth-child(4) .explore-placeholder {
+  background-image: url("khufu-solar-boat.jpg");
+}
+
+.explore-placeholder {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
