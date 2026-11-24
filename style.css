@@ -1079,3 +1079,6 @@ img {
 .about-image-placeholder > span {
   display: none;
 }
+.explore-card .explore-placeholder span {
+  display: none !important;
+}
