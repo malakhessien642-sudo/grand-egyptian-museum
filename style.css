@@ -1003,3 +1003,32 @@ img {
 .exhibition-card:hover .card-image-placeholder {
   background-size: 110%;
 }
+
+/* FIX EXHIBITION IMAGES */
+
+.exhibition-card:nth-child(1) .card-image-placeholder {
+  background-image: url("./tutankhamun.jpg") !important;
+}
+
+.exhibition-card:nth-child(2) .card-image-placeholder {
+  background-image: url("./ancient-egypt.jpg") !important;
+}
+
+.exhibition-card:nth-child(3) .card-image-placeholder {
+  background-image: url("./royal-treasures.jpg") !important;
+}
+
+.exhibition-card .card-image-placeholder {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+}
+
+.exhibition-card .card-image-placeholder span {
+  position: relative;
+  z-index: 2;
+  color: #e5c987;
+  background: rgba(8, 9, 9, 0.7);
+  padding: 8px 12px;
+}
