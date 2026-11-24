@@ -1035,19 +1035,19 @@ img {
 /* Explore Section Images */
 
 .explore-card:nth-child(1) .explore-placeholder {
-  background-image: url("grand-staircase.jpg");
+  background-image: url("grand-staircase.png");
 }
 
 .explore-card:nth-child(2) .explore-placeholder {
-  background-image: url("ancient-artifacts.jpg");
+  background-image: url("ancient-artifacts.png");
 }
 
 .explore-card:nth-child(3) .explore-placeholder {
-  background-image: url("royal-collections.jpg");
+  background-image: url("royal-collections.png");
 }
 
 .explore-card:nth-child(4) .explore-placeholder {
-  background-image: url("khufu-solar-boat.jpg");
+  background-image: url("khufu-solar-boat.png");
 }
 
 .explore-placeholder {
