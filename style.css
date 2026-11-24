@@ -976,3 +976,30 @@ img {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* Exhibition Images */
+
+.exhibition-card:nth-child(1) .card-image-placeholder {
+  background-image: url("tutankhamun.jpg");
+}
+
+.exhibition-card:nth-child(2) .card-image-placeholder {
+  background-image: url("ancient-egypt.jpg");
+}
+
+.exhibition-card:nth-child(3) .card-image-placeholder {
+  background-image: url("royal-treasures.jpg");
+}
+
+.exhibition-card .card-image-placeholder {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent;
+  transition: background-size 0.5s ease;
+  overflow: hidden;
+}
+
+.exhibition-card:hover .card-image-placeholder {
+  background-size: 110%;
+}
