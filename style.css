@@ -1058,3 +1058,9 @@ img {
 .exhibition-card .card-image-placeholder span {
   display: none !important;
 }
+.about-image-placeholder {
+  background-image: url("about-museum.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
