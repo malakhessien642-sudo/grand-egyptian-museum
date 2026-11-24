@@ -1064,3 +1064,18 @@ img {
   background-position: center;
   background-repeat: no-repeat;
 }
+/* About Museum Image */
+
+.about-image-placeholder {
+  background-image:
+    linear-gradient(rgba(8, 9, 9, 0.15), rgba(8, 9, 9, 0.15)),
+    url("./about-museum.png") !important;
+
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.about-image-placeholder > span {
+  display: none;
+}
